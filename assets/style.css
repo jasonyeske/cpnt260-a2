@@ -19,7 +19,7 @@ nav {
  Having fun with it
  Nav bar changes color when hovered over */
  .nav-bar > .nav-text:hover {
-   color: rgb(12, 86, 182);
+   color: rgb(0, 0, 0);
    text-decoration: underline;
  }
 .nav-bar > .nav-text{
