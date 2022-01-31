@@ -33,14 +33,22 @@ nav {
    color: black;
  }
  
+ h1 {
+color:white;
+text-align: center;
+font-size: 40px;
+font-family: 'Archivo Narrow', sans-serif;
+
+ }
+ /* Body background */
  body {
 
   background-image: url(https://freight.cargo.site/w/3840/q/75/i/a17dfc0b27e50cb1c75dcd8fcd13a2d11783729f60265d9a00d184bc5a8d9296/VALORANT_1.png);
- background-position: center;
- background-size:cover;
- height:100vh;
+  background-position: center;
+  background-size:cover;
+  height:100vh;
 }
-
+/* Cards */
 .card {
   flex-direction: column;
   border: 3px solid black;
@@ -48,16 +56,18 @@ nav {
   margin: 20px auto;
   background-color:lightgrey;
   display: flex;
+  font-family: 'Archivo Narrow', sans-serif;
   
 }
 /* The <figcaption> tag defines a caption for a <figure> element.
 w3schools.com */
 figcaption {
-   min-width: 30ch;
+  min-width: 30ch;
   max-width: 40ch;
   text-align: center;
   background-color:lightgrey;
   font-size: 18px;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 img {
   width: 100%;
@@ -83,8 +93,7 @@ img {
   text-align: center;
   text-decoration:none;
   float: bottom;
-  
-  
+  font-family: 'Archivo Narrow', sans-serif;
   
 }
 .card-pic:hover {
@@ -97,12 +106,15 @@ img {
   text-align: center;
   text-decoration:none;
   float: bottom;
+  font-family: 'Archivo Narrow', sans-serif;
 }
+
+
 .body-list {
 
 color:white;
-
-
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 20px;
 }
 
 footer {
