@@ -1,0 +1,112 @@
+/* Nav Bar */
+
+nav {
+    display: flex;
+   background-color: RGB(235, 64, 52);
+   font-size: 25px;
+ }
+ 
+ .nav-bar-list {
+   list-style-type: none;
+   display: flex;
+   margin-right: 2rem;
+   flex-wrap: wrap;
+   flex-grow: 2;
+   justify-content: space-between;
+   }
+ 
+ /*
+ Having fun with it
+ Nav bar changes color when hovered over */
+ .nav-bar > .nav-text:hover {
+   color: rgb(12, 86, 182);
+   text-decoration: underline;
+ }
+.nav-bar > .nav-text{
+   text-decoration: none;
+   color: black;
+    font-family: 'Roboto', sans-serif;
+ }
+ 
+ .nav-bar > .nav-text:visited {
+   text-decoration:black;
+   color: black;
+ }
+ 
+ body {
+
+  background-image: url(https://freight.cargo.site/w/3840/q/75/i/a17dfc0b27e50cb1c75dcd8fcd13a2d11783729f60265d9a00d184bc5a8d9296/VALORANT_1.png);
+ background-position: center;
+ background-size:cover;
+ height:100vh;
+}
+
+.card {
+  flex-direction: column;
+  border: 3px solid black;
+  max-width: 300px;
+  margin: 20px auto;
+  background-color:lightgrey;
+  display: flex;
+  
+}
+/* The <figcaption> tag defines a caption for a <figure> element.
+w3schools.com */
+figcaption {
+   min-width: 30ch;
+  max-width: 40ch;
+  text-align: center;
+  background-color:lightgrey;
+  font-size: 18px;
+}
+img {
+  width: 100%;
+  margin: 0 0 12px 0;
+}
+.card-position {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  
+}
+  
+  /* The CTA's */
+.card-pic {
+  display: block;
+  height:fit-items;
+  width:fit-items;
+  color:rgb(160, 9, 9);
+  background:rgb(173, 202, 7);
+  font-size:25px;
+  text-align: center;
+  text-decoration:none;
+  float: bottom;
+  
+  
+  
+}
+.card-pic:hover {
+  display: block;
+  height:fit-items;
+  width:fit-items;
+  color:rgb(0, 0, 0);
+  background:rgb(1, 236, 217);
+  font-size:25px;
+  text-align: center;
+  text-decoration:none;
+  float: bottom;
+}
+.body-list {
+
+color:white;
+
+
+}
+
+footer {
+
+  color:white;
+  text-align: center;
+}
